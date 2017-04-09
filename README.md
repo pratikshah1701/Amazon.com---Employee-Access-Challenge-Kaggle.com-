@@ -11,13 +11,13 @@ The objective of this competition is to build a model, learned using historical 
 The data consists of real historical data collected from 2010 & 2011.  Employees are manually allowed or denied access to resources over time. You must create an algorithm capable of learning from this historical data to predict approval/denial for an unseen set of employees. 
 
 ## Data 
-# File Descriptions
+### File Descriptions
 
 train.csv - The training set. Each row has the ACTION (ground truth), RESOURCE, and information about the employee's role at the time of approval
 
 test.csv - The test set for which predictions should be made.  Each row asks whether an employee having the listed characteristics should have access to the listed resource.
 
-# Column Descriptions
+### Column Descriptions
 
 Column Name	Description
 ACTION	ACTION is 1 if the resource was approved, 0 if the resource was no
