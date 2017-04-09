@@ -20,7 +20,7 @@ test.csv - The test set for which predictions should be made.  Each row asks whe
 # Column Descriptions
 
 Column Name	Description
-ACTION	ACTION is 1 if the resource was approved, 0 if the resource was not
+ACTION	ACTION is 1 if the resource was approved, 0 if the resource was no
 RESOURCE	An ID for each resource
 MGR_ID	The EMPLOYEE ID of the manager of the current EMPLOYEE ID record; an employee may have only one manager at a time
 ROLE_ROLLUP_1	Company role grouping category id 1 (e.g. US Engineering)
