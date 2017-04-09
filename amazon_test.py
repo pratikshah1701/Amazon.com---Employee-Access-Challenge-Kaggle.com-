@@ -4,9 +4,9 @@ from itertools import *
 weight={}
 totalWeight={}
 final = pd.DataFrame(columns=['Id','Resource','Weight']);
-df_test= pd.read_csv('https://raw.githubusercontent.com/vidushidikshit/Machine_Learning/master/test_amazon.csv')
+df_test= pd.read_csv('https://raw.githubusercontent.com/pratikshah1701/Amazon.com---Employee-Access-Challenge-Kaggle.com-/master/test.csv')
 #print(df_test)
-df_train= pd.read_csv('https://raw.githubusercontent.com/vidushidikshit/Machine_Learning/master/train_amazon.csv')
+df_train= pd.read_csv('https://raw.githubusercontent.com/pratikshah1701/Amazon.com---Employee-Access-Challenge-Kaggle.com-/master/train.csv')
 #df_train
 d={}
 d1={}
